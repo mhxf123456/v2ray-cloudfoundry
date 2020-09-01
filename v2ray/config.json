@@ -2,7 +2,7 @@
   "inbounds": [
     
 {
-      "port": 80, //推荐80端口，更好地迷惑防火墙（好吧实际上并没有什么卵用
+      "port": 80, 
       "protocol": "vmess",
       "settings": {
         "clients": [
@@ -16,7 +16,7 @@
       "streamSettings": {
         "network": "tcp",
         "tcpSettings": {
-          "header": { // header 这一项是关于数据包伪装的设置，可自定义合理的内容，但要确保服务器与客户端一致
+          "header": { 
             "type": "http",
             "response": {
               "version": "1.1",
